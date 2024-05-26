@@ -1,8 +1,12 @@
 # Mill project that compiles using Scala 3
 
-Run:
+Setup:
 ```bash
-mill mill.bsp.BSP/install
+./mill mill.bsp.BSP/install
 ```
-
 Switch metals build server afterwards and it's done.
+
+Run:
+```bash 
+./mill run
+```

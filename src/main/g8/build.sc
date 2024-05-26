@@ -1,6 +1,6 @@
 import mill._, scalalib._
 
-import $ivy.`com.goyeau::mill-scalafix::0.4.0`
+import \$ivy.`com.goyeau::mill-scalafix::0.4.0`
 import com.goyeau.mill.scalafix.ScalafixModule
 import mill.scalalib._
 

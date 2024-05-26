@@ -26,3 +26,9 @@ classes/
 .idea
 .idea_modules
 /.worksheet/
+
+# metals 
+metals/
+
+# mill 
+out/

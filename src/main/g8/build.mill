@@ -1,0 +1,11 @@
+import mill._, scalalib._
+
+import mill.scalalib._
+
+object `package` extends ScalaModule {
+  def scalaVersion = "3.7.4"
+
+  def mvnDeps = Seq(
+    mvn"com.outr::scribe::3.17.0"
+  )
+}
